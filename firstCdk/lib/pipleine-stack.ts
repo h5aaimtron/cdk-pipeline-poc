@@ -33,7 +33,7 @@ export class PipelineStack extends cdk.Stack {
           "npm ci", 
           "npm run build", // Hack way of building the angular app
           // cdk commands
-          "cd cdk",
+          "cd firstCdk",
           "npm ci",
           "npm run build",
           "npx cdk synth"
